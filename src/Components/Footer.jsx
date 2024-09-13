@@ -1,10 +1,11 @@
 import React from 'react'
+import '../Styles/Footer.Component.css'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='footer'>
         <p>Powered by</p>
-        <img src="./img/DH.png" alt='DH-logo' />
+        <img src="/public/images/DH.png"alt='DH-logo' />
     </footer>
   )
 }
